@@ -5,14 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40118bfb-fb68-4972-804d-e5379d4c7b23" name="Changes" comment="HomeWork3">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/HomeWork.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork2/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork2/src/main/java/Task1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork2/src/main/java/Task2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork2/src/main/java/Task3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork2/src/main/java/Task4/InvalidInputException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomeWork2/src/main/java/Task4/Task4.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +44,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/79509/Desktop/Исключения в программировании и их обработка/HomeWork",
+    "last_opened_file_path": "C:/Users/79509/Desktop/Исключения в программировании и их обработка/HomeWork/HomeWork2",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   },
   "keyToStringList": {
@@ -48,6 +53,19 @@
     ]
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -71,8 +89,26 @@
       <option name="project" value="LOCAL" />
       <updated>1690811054305</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="HomeWork3">
+      <created>1690812761378</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690812761378</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
