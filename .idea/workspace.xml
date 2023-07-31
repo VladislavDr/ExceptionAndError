@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40118bfb-fb68-4972-804d-e5379d4c7b23" name="Changes" comment="HomeWork3">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork2/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork2/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork2/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork2/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork2/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork2/src/main/java/Task1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork2/src/main/java/Task2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork2/src/main/java/Task3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork2/src/main/java/Task4/InvalidInputException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork2/src/main/java/Task4/Task4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +15,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="5f66f93a-17d0-4d10-a376-019252edc0ed" />
+        <option name="url" value="https://github.com/VladislavDr/ExceptionAndError.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -44,7 +46,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/79509/Desktop/Исключения в программировании и их обработка/HomeWork/HomeWork2",
+    "last_opened_file_path": "C:/Users/79509/Desktop/Исключения в программировании и их обработка/HomeWork/HomeWork3",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   },
   "keyToStringList": {
@@ -96,7 +98,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690812761378</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="HomeWork3">
+      <created>1690815638725</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690815638725</updated>
+    </task>
+    <task id="LOCAL-00005" summary="HomeWork3">
+      <created>1690815672657</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690815672658</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
