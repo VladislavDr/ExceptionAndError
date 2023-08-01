@@ -12,7 +12,7 @@ public class Main {
 
         try {
             isInvalidFormatText(textUser);
-            Human human = new Human(textUser[0], textUser[1], textUser[2], textUser[3], textUser[4], textUser[5]);
+            Human human = new Human(textUser);
             writerFullNameUser(human);
         } catch (InvalidDataFormatException e) {
             System.out.println(e.getMessage());
@@ -40,8 +40,6 @@ public class Main {
     public static void writerFullNameUser(Human human) throws IOException {
         String fileName = human.getSurname();
         FileWriter writer = null;
-        boolean fileBool = new File(fileName).isFile();
-        System.out.println(fileBool + " bool");
 
         try {
             writer = new FileWriter(fileName, true);

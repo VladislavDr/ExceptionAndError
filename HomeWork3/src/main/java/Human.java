@@ -1,18 +1,19 @@
 public class Human {
-    String surname;
-    String name;
-    String patronymic;
-    String birthday;
-    String phoneNumber;
-    String sex;
+     private String surname;
+    private String name;
+    private String patronymic;
+    private String birthday;
+    private String phoneNumber;
+    private String sex;
 
-    public Human(String surname, String name, String patronymic, String birthday, String ploneNumber, String sex) {
-        this.surname = surname;
-        this.name = name;
-        this.patronymic = patronymic;
-        this.birthday = birthday;
-        this.phoneNumber = ploneNumber;
-        this.sex = sex;
+
+    public Human(String[] fullName) {
+        this.surname = fullName[0];
+        this.name = fullName[1];
+        this.patronymic = fullName[2];
+        this.birthday = fullName[3];
+        this.phoneNumber = fullName[4];
+        this.sex = fullName[5];
     }
 
     public String getSurname() {
