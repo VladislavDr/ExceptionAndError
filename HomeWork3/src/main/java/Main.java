@@ -1,6 +1,8 @@
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -14,8 +16,8 @@ public class Main {
             writerFullNameUser(human);
         } catch (InvalidDataFormatException e) {
             System.out.println(e.getMessage());
-        } catch (RuntimeException e) {
-            System.out.println("Произошла ошибка при чтении, записи или закрытии файла " + e.getMessage());
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
     }
 
@@ -29,38 +31,28 @@ public class Main {
     }
 
     public static void isInvalidFormatText(String[] textUser) {
-        if (textUser.length != 6 || textUser[5] == "m" || textUser[5] == "f" ||
-                textUser[5] == "ф" || textUser[5] == "м") {
+        List sexUserLst = List.of("m", "f", "м", "ж");
+        if (textUser.length != 6 || !(sexUserLst.contains(textUser[5]))) {
             throw new InvalidDataFormatException();
         }
     }
 
-    public static void writerFullNameUser(Human human) {
+    public static void writerFullNameUser(Human human) throws IOException {
         String fileName = human.getSurname();
         FileWriter writer = null;
         boolean fileBool = new File(fileName).isFile();
         System.out.println(fileBool + " bool");
 
         try {
-            if (fileBool == false) {
-                writer = new FileWriter(fileName);
-                writer.write(human + "\n");
-            } else {
-                writer = new FileWriter(fileName, true);
-                writer.write(human + "\n");
-
-            }
+            writer = new FileWriter(fileName, true);
+            writer.write(human + "\n");
 //            writer.flush();
 
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            throw new IOException(e);
 
         } finally {
-            try {
                 writer.close();
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
         }
     }
 }
